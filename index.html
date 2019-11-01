@@ -19,31 +19,38 @@
 
 <style>
 @font-face {
-    font-family: "socicon";
-    src: url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.eot");
-    src: url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.eot?#iefix") format("embedded-opentype"),
-         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.woff") format("woff"),
-         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.ttf") format("truetype"),
-         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.svg#1474843172") format("svg");
+    font-family: 'Socicon';
+    src: url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.eot?ls8ev');
+    src: url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.eot?ls8ev#iefix') format('embedded-opentype'),
+         url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.woff2?ls8ev') format('woff2'),
+         url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.ttf?ls8ev') format('truetype'),
+         url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.woff?ls8ev') format('woff'),
+         url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.svg?ls8ev#Socicon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-[class^="socicon-"]:before,
-[class*=" socicon-"]:before {
-    font-family: "socicon";
+[class^="socicon-"], [class*=" socicon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Socicon' !important;
     speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
     line-height: 1;
+
+    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.socicon-twitter:before { content: "\e040"; }
-.socicon-stackoverflow:before { content: "\e007"; }
-.socicon-github:before { content: "\e030"; }
-.socicon-xing:before { content: "\e04b"; }
-.socicon-linkedin:before { content: "\e049"; }
-.socicon-medium:before { content: "\e06d"; }
+.socicon-twitter:before { content: "\e08d"; }
+.socicon-stackoverflow:before { content: "\e07b"; }
+.socicon-github:before { content: "\e032"; }
+.socicon-xing:before { content: "\e09f"; }
+.socicon-linkedin:before { content: "\e04c"; }
+.socicon-medium:before { content: "\e051"; }
 
 * {
     margin: 0; 
